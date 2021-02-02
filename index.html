@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AutLom</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+</head>
+<body>
+
+
+ <header>
+
+        <a href="" class="logo" style="margin-left:200px">AutLom</a>
+        <div class="menu-toggle"></div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">INICIO</a></li>
+                <li><a href="index.html">SESIÓN</a></li>
+                <li><a href="index.html">CONTACTANOS</a></li>
+               
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+    </header>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+  <script>
+      $(document).ready(function(){
+          $('.menu-toggle').click(function(){
+              $('.menu-toggle').toggleClass('active')
+              $('nav').toggleClass('active')
+          })
+      })
+  </script>
+
+<div class="container">
+  
+  <input type="radio" id="i1" name="images" checked />
+  <input type="radio" id="i2" name="images" />
+  <input type="radio" id="i3" name="images" />
+  <input type="radio" id="i4" name="images" />
+  <input type="radio" id="i5" name="images" />  
+  
+  <div class="slide_img" id="one">      
+      
+      <img src="img/lamborghini-sc18-alston.jpg">
+      
+        <label class="prev" for="i5"><span>&#x2039;</span></label>
+        <label class="next" for="i2"><span>&#x203a;</span></label>  
+    
+  </div>
+  
+  <div class="slide_img" id="two">
+    
+      <img src="img/cda80057aea2de2da69c147c668fab45.jpg" >
+      
+        <label class="prev" for="i1"><span>&#x2039;</span></label>
+        <label class="next" for="i3"><span>&#x203a;</span></label>
+    
+  </div>
+      
+  <div class="slide_img" id="three">
+      <img src="img/bugatti-logo.jpg">  
+      
+        <label class="prev" for="i2"><span>&#x2039;</span></label>
+        <label class="next" for="i4"><span>&#x203a;</span></label>
+  </div>
+
+  <div class="slide_img" id="four">
+      <img src="img/1607055.jpg"> 
+      
+        <label class="prev" for="i3"><span>&#x2039;</span></label>
+        <label class="next" for="i5"><span>&#x203a;</span></label>
+  </div>
+
+  <div class="slide_img" id="five">
+      <img src="img/37199.jpg">  
+      
+        <label class="prev" for="i4"><span>&#x2039;</span></label>
+        <label class="next" for="i1"><span>&#x203a;</span></label>
+
+  </div>
+
+  <div id="nav_slide">
+    <label for="i1" class="dots" id="dot1"></label>
+    <label for="i2" class="dots" id="dot2"></label>
+    <label for="i3" class="dots" id="dot3"></label>
+    <label for="i4" class="dots" id="dot4"></label>
+    <label for="i5" class="dots" id="dot5"></label>
+  </div>
+    
+</div>
+
+
+
+<div class="container1">
+  <div class="card">
+    <img src="img/bugatti_divo_in_paris-HD.jpg" alt="" />
+    <h3 class="card-header">Bugatti Veyron</h3>
+    <p class="card-text">
+      CARACTERISTICAS <br><br>
+
+      CABALLO DE FUERZA: <br><br>
+
+      ACELERACION: 0 a 100 Km/h en 2,5 segundos <br><br>
+
+      VELOCIDAD: 408 Km/h <br><br>
+
+      MOTOR:  1.001 CV y 431.072 km/h en la versión Super Sport de 1.200 CV que fue empleada para batir el récord de velocidad máxima.
+
+
+    </p>
+    <div class="divider"></div>
+    <a class="btn btn-default" href="https://www.bugatti.com/">SABER MÁS...</a>
+  </div>
+
+  <div class="card">
+    <img src="img/covr.jpg" alt="" />
+    <h3 class="card-header">Corvette</h3>
+    <p class="card-text">
+         CARACTERISTICAS <br><br>
+
+      CABALLO DE FUERZA: 495 Caballos de fuerza <br><br>
+
+      ACELERACION: 4.8s a 82 mph <br><br>
+
+      VELOCIDAD: Velocidad máxima de 344 km/h  <br><br>
+
+      MOTOR:  V8 LT2 6.2L de última generación, un atmosférico que entrega una potencia de 495 caballos y un par de 637 Nm
+
+    </p>
+    <div class="divider"></div>
+    <a class="btn btn-default" href="https://es.chevrolet.com/performance/corvette">SABER MÁS...</a>
+  </div>
+
+  <div class="card">
+    <img src="img/1152660.jpg"  />
+    <h3 class="card-header">BMW</h3>
+    <p class="card-text">
+       CARACTERISTICAS <br><br>
+
+      CABALLO DE FUERZA:	184 HP A 5,000 RPM<br><br>
+
+      ACELERACION:	6,9 l/100 km  <br><br>
+
+      VELOCIDAD: 	250 km/h (limitado electrónicamente) <br><br>
+
+      MOTOR:  3 cilindros BMW TwinPower Turbo / 1499 cm3 / 136 hp (4,500-6000 rpm) / 220 Nm (1,250 – 4,000 rpm). 
+
+    </p>
+    <div class="divider"></div>
+    <a class="btn btn-default" href="https://www.bmw.com/es/index.html	">SABER MÁS...</a>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+	
+<div class="container-body-all">
+
+
+<div class="container-body">
+	
+<div class="colum1">
+	<H1>MAS INFORMACION DE LA COMPAÑIA</H1>
+
+	<P>Un texto es una composición de signos codificados en un sistema de escritura que forma una unidad de sentido. También es una composición de caracteres imprimibles generados por un algoritmo de cifrado que, aunque no tienen sentido para cualquier persona, sí puede ser descifrado por su destinatario original. Wikipedia
+</P>
+</div>
+
+<div class="colum2">
+	<h1>REDES SOCIALES</h1>
+
+	<div class="row">
+		<img src="file:///D:/STREAMING/Loimy/pum/Footer/facebook.png">
+		<label>Siguenos en FACEBOOK</label>
+	</div>
+
+	<div class="row">
+		<img src="file:///D:/STREAMING/Loimy/pum/Footer/twitter.png">
+		<label>Siguenos en TWITTER</label>
+	</div>
+
+	<div class="row">
+		<img src="file:///D:/STREAMING/Loimy/pum/Footer/3721672-instagram_108066.png">
+		<label>Siguenos en INSTAGRAM</label>
+	</div>
+
+		<div class="row">
+		<img src="file:///D:/STREAMING/Loimy/pum/Footer/1377225.png">
+		<label>Siguenos en GOOGLE PLUS</label>
+	</div>
+
+		<div class="row">
+		<img src="file:///D:/STREAMING/Loimy/pum/Footer/58e9199beb97430e819064fc.png">
+		<label>Siguenos en PINTERES</label>
+	</div>
+
+
+</div>
+
+<div class="colum3">
+	
+<h1>INFORMACION CONTACTOS</h1>
+
+	<div class="row2">
+		<img src="file:///D:/STREAMING/Loimy/pum/Footer/588a6758d06f6719692a2d22.png">
+		<label>SANTO DOMINGO ESTE,
+		REPUBLICA DOMINICANA
+		MOISES
+		DEP#24	
+        </label>
+	</div>
+ 	<div class="row2">
+		<img src="file:///D:/STREAMING/Loimy/pum/Footer/976604-appliances-cell-phone-cellphone-mobile-mobilephone-phone-smartphone_106569.png">
+		<label> +1 - 809-234-2907
+        </label>
+	</div>
+
+	<div class="row2">
+		<img src="file:///D:/STREAMING/Loimy/pum/Footer/b6a03146b367c8cef76cee608577ef2c.png">
+		<label>loimyyaset03@gmail.com
+        </label>
+	</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+<div class="container-footer">
+	<div class="foote22r"></div>
+	<div class="copyright">
+		
+ ©2020 TODOS LOS DERECHOS RESERVADOS | AutLom |
+
+	</div>
+
+<div class="information">
+	<a href="">INFORMACION COMPAÑIA </a> | <a href=""> PRIVACION Y POLITICA </a>| <a href=""> TERMINOS Y CONDICIONES</a>
+</div>
+</div>
+</div>
+
+
+</footer>
+</body>
+</html>
